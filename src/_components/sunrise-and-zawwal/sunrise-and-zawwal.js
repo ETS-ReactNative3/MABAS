@@ -36,8 +36,8 @@ class SunriseAndZawwal extends Component {
         <table className="SunriseAndZawwalTable">
           <thead>
             <tr>
-              <th>Sunrise</th>
-              <th>Zawwal</th>
+              <th>Terbit</th>
+              <th>Zawal</th>
             </tr>
           </thead>
           <tbody>
