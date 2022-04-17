@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import 'moment/locale/id' // add manual
-moment.locale('id') // add manual
 import './prayer-times-week-ahead.css';
 import PrayerData from '../prayer-data/prayer-data';
 
