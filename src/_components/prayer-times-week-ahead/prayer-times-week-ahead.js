@@ -69,7 +69,7 @@ class PrayerTimesWeekAhead extends Component {
         <table className="PrayerTimesWeekAhead">
           <thead>
             <tr>
-              <th>Week ahead</th>
+              <th>Pekan depan</th>
               <th colSpan="3">Subuh</th>
               <th colSpan="2">Dzuhur</th>
               <th colSpan="2">Asyar</th>
