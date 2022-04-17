@@ -46,7 +46,6 @@ class PrayerTimesWeekAhead extends Component {
 
           {/* ASR */}
           <td>{times['asr_1_begins']}</td>
-          <td>{times['asr_2_begins']}</td>
           <td>{times['asr_jamaah']}</td>
 
           {/* MAGHRIB */}
@@ -71,37 +70,36 @@ class PrayerTimesWeekAhead extends Component {
           <thead>
             <tr>
               <th>Week ahead</th>
-              <th colSpan="3">Fajr</th>
-              <th colSpan="2">Zuhr</th>
-              <th colSpan="3">Asr</th>
+              <th colSpan="3">Subuh</th>
+              <th colSpan="2">Dzuhur</th>
+              <th colSpan="3">Asyar</th>
               <th colSpan="2">Maghrib</th>
-              <th colSpan="2">Isha</th>
+              <th colSpan="2">Isya'</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td />
               {/* FAJR */}
-              <td>Begins</td>
-              <td>Jama'ah</td>
-              <td>Sunrise</td>
+              <td>Adzan</td>
+              <td>Iqomah</td>
+              <td>Terbit</td>
 
               {/* ZUHR */}
-              <td>Begins</td>
-              <td>Jama'ah</td>
+              <td>Adzan</td>
+              <td>Iqomah</td>
 
               {/* ASR */}
-              <td>Mithl 1</td>
-              <td>Mithl 2</td>
-              <td>Jama'ah</td>
+              <td>Adzan</td>
+              <td>Iqomah</td>
 
               {/* MAGHRIB */}
-              <td>Begins</td>
-              <td>Jama'ah</td>
+              <td>Adzan</td>
+              <td>Iqomah</td>
 
               {/* ISHA */}
-              <td>Begins</td>
-              <td>Jama'ah</td>
+              <td>Adzan</td>
+              <td>Iqomah</td>
             </tr>
             {rows}
           </tbody>
