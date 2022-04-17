@@ -22,7 +22,7 @@ class PrayerTimes extends Component {
     ) {
       return (
         <tr>
-          <th>Asr</th>
+          <th>Asyar</th>
           <td />
           <td>{this.state.prayerTimes['asr_1_begins']}</td>
           <td>{this.state.prayerTimes['asr_jamaah']}</td>
@@ -34,7 +34,7 @@ class PrayerTimes extends Component {
     ) {
       return (
         <tr>
-          <th>Asr</th>
+          <th>Asyar</th>
           <td />
           <td>{this.state.prayerTimes['asr_2_begins']}</td>
           <td>{this.state.prayerTimes['asr_jamaah']}</td>
@@ -75,19 +75,19 @@ class PrayerTimes extends Component {
             <tr>
               <th />
               <th />
-              <th>Begins</th>
-              <th>Jama'ah</th>
+              <th>Adzan</th>
+              <th>Iqomah</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>Fajr</th>
+              <th>Subuh</th>
               <td />
               <td>{this.state.prayerTimes['fajr_begins']}</td>
               <td>{this.state.prayerTimes['fajr_jamaah']}</td>
             </tr>
             <tr>
-              <th>Zuhr</th>
+              <th>Dzuhur</th>
               <td />
               <td>{this.state.prayerTimes['zuhr_begins']}</td>
               <td>{this.state.prayerTimes['zuhr_jamaah']}</td>
@@ -100,7 +100,7 @@ class PrayerTimes extends Component {
               <td>{this.state.prayerTimes['maghrib_jamaah']}</td>
             </tr>
             <tr>
-              <th>Isha</th>
+              <th>Isya'</th>
               <td />
               <td>{this.state.prayerTimes['isha_begins']}</td>
               <td>{this.state.prayerTimes['isha_jamaah']}</td>
