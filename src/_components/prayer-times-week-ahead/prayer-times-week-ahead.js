@@ -72,7 +72,7 @@ class PrayerTimesWeekAhead extends Component {
               <th>Week ahead</th>
               <th colSpan="3">Subuh</th>
               <th colSpan="2">Dzuhur</th>
-              <th colSpan="3">Asyar</th>
+              <th colSpan="2">Asyar</th>
               <th colSpan="2">Maghrib</th>
               <th colSpan="2">Isya'</th>
             </tr>
